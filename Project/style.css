@@ -1,0 +1,48 @@
+
+.first{
+  position: absolute;
+  top : 5%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: x-large;
+
+}
+
+ul{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+}
+
+ul li:nth-child(1){
+  color: rgb(0, 0, 200);
+}
+
+ul li:nth-child(2){
+  color: rgb(0, 0, 0);
+}
+
+ul li:nth-child(3){
+  color: rgb(200, 0, 0);
+}
+
+ul li:nth-child(4){
+  color: rgb(0, 0, 0);
+}
+
+ul li:nth-child(5){
+  color: rgb(0, 200, 0);
+}
+
+
+  .column {
+    float: left;
+    padding: 5px;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
